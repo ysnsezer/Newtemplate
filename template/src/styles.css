@@ -1,0 +1,89 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  padding: 0px 60px;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  margin-bottom: 10rem;
+  border-radius: 10px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 
+  for card component */
+.card {
+  width: 300px;
+  height: 400px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.card-content {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.card-image {
+  text-align: center;
+
+}
+
+.card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+
+
+.card-title {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.7em;
+}
